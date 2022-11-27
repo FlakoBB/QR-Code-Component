@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(212deg, 45%, 89%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 100vh;
+}
+
+.card {
+  width: 18em;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1em;
+  padding: 1em;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 1em;
+}
+.card .card-cta {
+  text-align: center;
+}
+.card .card-cta .card-title {
+  margin-top: 1.5em;
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.card .card-cta .card-p {
+  margin: 1em 0;
+  color: hsl(220deg, 15%, 55%);
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 0.7em;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
